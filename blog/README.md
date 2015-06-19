@@ -1,3 +1,3 @@
-# blog
+# blog service
 
-a [Sails](http://sailsjs.org) application
+- nodeとsailsの勉強
