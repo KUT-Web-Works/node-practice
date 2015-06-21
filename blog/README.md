@@ -5,4 +5,4 @@
  - カレントブランチでpushする
  git config --global push.default current
  - 文字化け修正(macのみ？)
-  - http://structured-p.info/server/192
+ http://structured-p.info/server/192
