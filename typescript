@@ -1,0 +1,64 @@
+Script started on Tue 30 Jun 2015 09:57:07 AM UTC
+]0;vagrant@vagrant-centos65:~/node-practice[?1034h[vagrant@vagrant-centos65 node-practice]$ git checkout -b okamura
+Switched to a new branch 'okamura'
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git branch
+  master
+* okamura
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git[K[K[Ktouch c[K [Kindex,[K[K[K[K[K[Kindex,[K.html[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push [K
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/KUT-Web-Works/node-practice.git/info/refs
+
+fatal: HTTP request failed
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git set -[K[K-url ^C
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git push[K[K[K[Kset [K-url https://github.com/KURT[K[KT-Web -Works/node-practioce/[K.git
+git: 'set-url' is not a git command. See 'git --help'.
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git remote or[K[Kset-url origu[Kin  https://git hub.com/KUT^[K-Web-Works/node^[K-practice.git
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git push
+error: The requested URL returned error: 403 Forbidden while accessing https://github.com/KUT-Web-Works/node-practice.git/info/refs
+
+fatal: HTTP request failed
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git pushremote set-url origin  https://githhub.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://githu[1Pb.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://github[1P.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://github.[1Pcom/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://github.c[1Pom/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://github.co[1Pm/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://github.com[1P/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co  https:[C/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https:/[C[1Pgithub.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc  https:[C/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce  https://github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+fatal: No such remote 'node-practice'
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git remote set-url node-practice  httpss://github.com/KUT-Web-Works/node-practice.git[Cogithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[Ckgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[Cagithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[Cmgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[Cugithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[Crgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[C[Cagithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[Ckgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[Cegithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[Cigithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[Crgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C2github.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[Crgithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[Cogithub.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[C[C/github.com/KUT-Web-Works/node-practice.git[C[C[C[C[C[C[C[C[C[C[C
+fatal: No such remote 'node-practice'
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git remote set-url node-practice  httpss://kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https:[1P//kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https:/[C[1Pkei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://[1Pkei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://k[1Pei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://ke[1Pi2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei[1P2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei2[1Pro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei2r[1Po/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei2ro[1P/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei2ro/[1Pgithub.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei2ro/g[1Pithub.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei2ro/gi[1Pthub.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  https://kei2ro/git[1Phub.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co  https://kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr  https://kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci  https://kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg  https://kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci  https://kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn  https://kei2ro/github.com/KUT-Web-Works/node-practice.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git push
+error: Couldn't resolve host 'kei2ro' while accessing https://kei2ro/github.com/KUT-Web-Works/node-practice.git/info/refs
+
+fatal: HTTP request failed
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git pushremote set-url origin  https://kei22ro/github.com/KUT-Web-Works/node-practice.git[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C`github.com/KUT-Web-Works/node-practice.git[C[C[C[C[1Pgithub.com/KUT-Web-Works/node-practice.git[C[C[C@github.com/KUT-Web-Works/node-practice.git[C[C[C[C
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ git remote set-url origin  https://kei22ro@github.com/KUT-Web-Works/node-practice.git[Apush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Password: 
+Everything up-to-date
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ ls
+[0m[01;34mapi[0m     [01;34massets[0m  Gruntfile.js  README.md  typescript
+app.js  [01;34mconfig[0m  package.json  [01;34mtasks[0m      [01;34mviews[0m
+[m]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ cat README.md 
+# blog service
+
+- nodeとsailsの勉強
+- 設定
+ - カレントブランチでpushする
+ git config --global push.default current
+ - git statsuに色ずけ 
+ git config --global color.status auto
+ - 文字化け修正(macのみ？)
+ http://structured-p.info/server/192
+]0;vagrant@vagrant-centos65:~/node-practice[vagrant@vagrant-centos65 node-practice]$ vi[K[Kgiut[K[Kt 0[Kcibd[K[K[Konfig-[K --g.lba
+error: unknown option `g.lba'
+usage: git config [options]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    -f, --file <FILE>     use given config file
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 adds a new variable: name value
+   
